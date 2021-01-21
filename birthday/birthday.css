@@ -1,0 +1,108 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 3px solid #dec859;
+  padding: 24px;
+  background-color: #a091c9;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+header{
+  grid-column: span 12;
+  text-align: center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: bold;
+  color: #77b585;
+  background-image: linear-gradient(to left bottom, #a091c9, #9c8ec5, #988ac1, #9587be, #9184ba);
+  border-radius: 10px, 10px, 0px, 10px;
+  border: 3px solid #dec859;
+  padding: 0px;
+}
+
+h1{
+  font-size: 70px;
+  padding: 0px;
+}
+
+h2{
+  font-size: 40px;
+  padding: 0px;
+}
+
+main{
+  grid-column: span 12;
+  font-family: 'Noto Sans TC', sans-serif;
+  color: #3b3934;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+footer{
+  grid-column: span 12;
+  font-family: 'Noto Sans TC', sans-serif;
+  color: #3b3934;
+  text-align: center;
+  background-image: linear-gradient(to left top, #a091c9, #9c8ec5, #988ac1, #9587be, #9184ba);
+  border-radius: 0px, 10px, 10px, 10px;
+  padding: 0px;
+  margin-top: 0px;
+  border: 3px solid #dec859;
+}
+
+
+
+.specialimg{
+  grid-column: span 5;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 0px;
+  border-left: 3px solid #dec859;
+  border-right: 3px solid #dec859;
+
+}
+
+.video{
+  margin-bottom: 0px;
+}
+
+.text{
+  margin-left: 10px;
+  margin-bottom: 25px;
+
+}
+
+a {
+  text-decoration: none;
+  color: #77b585;
+}
+
+a hover {
+  text-decoration: none;
+  color: #dec859;
+}
+
+a click {
+  text-decoration: none;
+  color: #77b585;
+}
+
+a visited {
+  text-decoration: none;
+  color: #77b585;
+}
+
+
+
+
+/* Color Palette
+lightest purple: #a091c9
+darkest purple: #9184ba
+yellow: #dec859
+green: #77b585
+brown: #3b3934
