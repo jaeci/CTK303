@@ -1,0 +1,35 @@
+body {
+  background-color: #000000;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  padding: 24px;
+  background-color: #000000;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+
+}
+
+
+.swiper-container {
+  width: 1200px;
+  height: 900px;
+}
+
+
+header{
+  grid-column: span 12;
+  background-color: #7fd61c;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 40px;
+  font-weight: normal;
+  text-align: center;
+
+}
+
+h1{
+    padding: 30px;
+}
