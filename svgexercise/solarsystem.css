@@ -84,7 +84,7 @@ p{
 #Saturn {
   opacity: 0.9;
   transition: all .75s linear;
-  /* transform-origin: center; */
+  transform-origin: center;
 }
 
 #Saturn:hover {
