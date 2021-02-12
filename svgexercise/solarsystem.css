@@ -1,0 +1,119 @@
+body{
+  background-color: #23222e;
+}
+
+h1{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 50px;
+}
+
+p{
+  color: white;
+}
+
+/* #solarsystem { width: 1200px; display: block; } */
+
+#Sun {
+  opacity: 0.9;
+  transition: all .75s linear;
+  transform-origin: center;
+}
+
+#Sun:hover {
+  transform: scale(1.15);
+  opacity: 1;
+}
+
+#Mercury {
+  opacity: 0.9;
+  transition: all .75s linear;
+  transform-origin: center;
+}
+
+#Mercury:hover {
+  transform: scale(1.25);
+  opacity: 1;
+}
+
+#Venus {
+  opacity: 0.9;
+  transition: all .75s linear;
+  transform-origin: center;
+}
+
+#Venus:hover {
+  transform: scale(1.25);
+  opacity: 1;
+}
+
+#Earth {
+  opacity: 0.9;
+  transition: all .75s linear;
+  transform-origin: center;
+}
+
+#Earth:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+#Mars {
+  opacity: 0.9;
+  transition: all .75s linear;
+  transform-origin: center;
+}
+
+#Mars:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+#Jupiter {
+  opacity: 0.9;
+  transition: all .75s linear;
+  transform-origin: center;
+}
+
+#Jupiter:hover {
+  transform: scale(1.15);
+  opacity: 1;
+}
+
+#Saturn {
+  opacity: 0.9;
+  transition: all .75s linear;
+  /* transform-origin: center; */
+}
+
+#Saturn:hover {
+  transform: scale(1.15);
+  opacity: 1;
+}
+
+#Uranus {
+  opacity: 0.9;
+  transition: all .75s linear;
+  transform-origin: center;
+}
+
+#Uranus:hover {
+  transform: scale(1.15);
+  opacity: 1;
+}
+
+#Neptune {
+  opacity: 0.9;
+  transition: all .75s linear;
+  transform-origin: center;
+}
+
+#Neptune:hover {
+  transform: scale(1.15);
+  opacity: 1;
+}
+
+
+
+/* #23222e: */
