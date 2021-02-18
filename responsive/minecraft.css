@@ -1,0 +1,136 @@
+/* Default Layout (Mobile) */
+body {
+  margin: 0;
+  padding: 1em;
+  background-color: #99d19b;
+  font-family: 'Truculenta', sans-serif;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+h1 {
+  font-family: 'Big Shoulders Inline Display', cursive;
+  color: #2f5b91;
+  font-size: 3em;
+  margin: 0 0 .25em 0;
+  padding: 0;
+  border-bottom: 2px solid #97a6ba;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+  margin-bottom: 1em;
+  margin-top: 2em;
+}
+
+nav a {
+  color: "green";
+  font-family: 'Truculenta', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  font-style: italic;
+  /* text-transform: uppercase; */
+  background-color: #5d83b3;
+  border-radius: .25em;
+  padding: 1em;
+}
+
+h2 {
+  font-family: 'Truculenta', sans-serif;
+  color: green;
+  font-weight: normal;
+  margin: 0;
+  padding: .25em 0 .25em 0;
+  border-bottom: 2px solid #97a6ba;
+}
+
+h3 {
+  color: #2f5b91;
+  font-family: 'Big Shoulders Inline Display', cursive;
+  font-size: 2.5em;
+}
+
+h4 {
+  font-family: 'Truculenta', sans-serif;
+  color: green;
+  text-align: center;
+  border-top: 2px solid #97a6ba;
+  font-size: 1.5em;
+}
+
+footer {
+  font-family: 'Truculenta', sans-serif;
+  background-color: green;
+  color: white;
+  padding: .5em;
+  text-align: center;
+}
+
+#mainimg {
+  width: 100%;
+  margin-top: 1em;
+}
+
+#bodyimg {
+  width: 100%;
+  margin-top: 1em;
+}
+
+
+/*  Media Queries (responsive to screen width) */
+@media all and (min-width: 40em) {
+  h1 {
+    text-align: center
+  }
+
+  #mainimg {
+    margin-bottom: 2em;
+  }
+}
+
+@media all and (min-width: 50em) {
+  #mainimg {
+    width: 70%;
+    float: right;
+    margin-top: 0.5em;
+  }
+
+  nav {
+    float: left;
+    width: 30%;
+    grid-template-columns: 1fr;
+  }
+
+  nav a {
+    margin-right: 1em;
+  }
+
+  main {
+    clear: both;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 2em;
+  }
+
+  h4 {
+    clear: both;
+  }
+
+  body {
+    max-width: 1200px;
+    margin: 0em auto;
+  }
+}
+
+@media all and (min-width: 70em) {
+  #bodyimg {
+    width: 70%
+  }
+
+}
